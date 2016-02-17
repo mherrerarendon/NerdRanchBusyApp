@@ -11,6 +11,8 @@
 		FB3B45A21C73FEA60003E278 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3B45A11C73FEA60003E278 /* Images.xcassets */; };
 		FB3B45A51C73FEA60003E278 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3B45A31C73FEA60003E278 /* MainMenu.xib */; };
 		FB3B45B11C73FEA60003E278 /* BusyApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B45B01C73FEA60003E278 /* BusyApp2Tests.swift */; };
+		FB3B45BC1C73FF230003E278 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B45BA1C73FF230003E278 /* MainWindowController.swift */; };
+		FB3B45BD1C73FF230003E278 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB3B45BB1C73FF230003E278 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		FB3B45AA1C73FEA60003E278 /* BusyApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusyApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3B45AF1C73FEA60003E278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB3B45B01C73FEA60003E278 /* BusyApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusyApp2Tests.swift; sourceTree = "<group>"; };
+		FB3B45BA1C73FF230003E278 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		FB3B45BB1C73FF230003E278 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				FB3B45A11C73FEA60003E278 /* Images.xcassets */,
 				FB3B45A31C73FEA60003E278 /* MainMenu.xib */,
 				FB3B459D1C73FEA60003E278 /* Supporting Files */,
+				FB3B45BA1C73FF230003E278 /* MainWindowController.swift */,
+				FB3B45BB1C73FF230003E278 /* MainWindowController.xib */,
 			);
 			path = BusyApp2;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB3B45A21C73FEA60003E278 /* Images.xcassets in Resources */,
+				FB3B45BD1C73FF230003E278 /* MainWindowController.xib in Resources */,
 				FB3B45A51C73FEA60003E278 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3B45BC1C73FF230003E278 /* MainWindowController.swift in Sources */,
 				FB3B45A01C73FEA60003E278 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
